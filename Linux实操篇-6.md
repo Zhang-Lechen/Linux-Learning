@@ -179,16 +179,27 @@ top与ps命令很相似。它们都用来显示正在执行的进程。Top与ps�
 ##### 常用查询指令
 
 rpm -qa :查询所安装的所有rpm软件包
+
 rpm -qa | more
+
 rpm -qa | grep X [rpm -qa | grep firefox ]
+
 rpm -q 软件包名:查询软件包是否安装
+
 rpm -q firefox
+
 rpm -qi 软件包名：查询软件包信息
+
 rpm -qi file
+
 rpm -ql 软件包名:查询软件包中的文件
+
 rpm -ql firefox
+
 rpm -qf 文件全路径名查询文件所属的软件包
+
 rpm -qf /etc/passwd
+
 rpm -qf /root/install.log
 
 ##### 卸载软件包
